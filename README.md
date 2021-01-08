@@ -13,6 +13,11 @@ Every interview will have different questions. These can take many forms includi
 - What are differences between compiled and interpreted languages? Name an example of each.
 
 
+#### General Front End
+- Which do you prefer, React or Angular? Why?
+- How do you keep CSS from running out of control?
+
+
 #### JavaScript
 
 - What's a typical use case for anonymous functions?
