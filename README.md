@@ -96,13 +96,13 @@ Every interview will have different questions. These can take many forms includi
   - Why should they be used?
 
 
-#### Testing 
+#### Testing
 
 - What is unit testing? Why is it important?
-- What is a test case? 
+- What is a test case?
 - You've been asked to write a function to check that a zip code is valid.
-  - What questions might you ask to clarify this problem? 
-  - What are some test cases you might write? 
+  - What questions might you ask to clarify this problem?
+  - What are some test cases you might write?
 - What is Test Driven Development?
 - What is a `mock` in testing and when would you use it?
 
@@ -147,8 +147,12 @@ Every interview will have different questions. These can take many forms includi
 - Why might you use Redux on a project?
 - What is a task runner? What are they used for? Name three task runners.
 - When would you use a Class Component over a Functional Component.
+- Which state management patterns have you used?
+- Do you prefer hooks or class components?
+- Can you describe in high level how React works to update the UI?
+- Can you explain why you would use state over props and visa versa?
 
-More here: 
+More here:
 - https://tylermcginnis.com/react-interview-questions/
 - https://github.com/Pau1fitz/react-interview
 
