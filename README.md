@@ -5,17 +5,33 @@ Every interview will have different questions. These can take many forms includi
 
 #### General Questions
 
+- Notes:
+    - Let them know I'm nervous
+    - I'm used to talking with non technical people
+    - Block level elements (Accessability requirements like Header and Footer)
+    - Css structure of classes, css module styling out, some property
+    - Been spending more time in the Tech Opps area instead of coding (wearing multiple hats)
+
 - Talk about your preferred development environment.
+    - **N: What kind of stuff am I using on desktop to interface and work on code
+    - **N: VS Code
+    - **N: Chrome Developer tooks
 - Name 3 ways to decrease page load (perceived or actual load time).
 - If you jumped on a project and they used tabs and you used spaces, what would you do?
 - Describe how you would create a simple slideshow page.
 - What is a CDN and what advantages or disadvantages does it have?
+    - **N: Content Delivery Network (CDN) S3 Bucket, load balancing, external servers
 - What are differences between compiled and interpreted languages? Name an example of each.
 
 
 #### General Front End
 - Which do you prefer, React or Angular? Why?
+    - **N: React has a low API footprint (not as perscriptive)
+    - **N: In a dev group not as familiar with FE and needs Perscriptive like .Net shops
 - How do you keep CSS from running out of control?
+    - **N: Semantics refers to the name identifying the purpose of the element and the CSS
+    - **N: Team level - Implement style guide, avoide utility classes, encapsulate and make them reusable 
+    - **N: at 100+ lines i question if i should be breaking out and refactoring the code
 
 
 #### JavaScript
@@ -26,8 +42,13 @@ Every interview will have different questions. These can take many forms includi
 - Name two JavaScript runtime environments and explain how they differ.
 - Explain Ajax in as much detail as possible.
 - What is the difference between a variable being `undefined` and `not defined`?
+    - **N: `not defined` means that there is no variable defined with `let`, `const`, `var`
 - What is the difference between `undefined` and `null`?
+    - **N: `undefined` means it has been created but not given a value
+    - **N: `null` means a variable has been created but it's value is `null`
 - Explain "hoisting". What is the difference between `let` and `var`?
+    - **N: `let` is ES6 standard and can be scoped to help reduce code conflicts
+    - **N: `var` has hoisting where `let` can be scoped
 - What are some differences between a function declaration and a function expression. 
     - Write a function declaration for a function that adds two numbers and returns the result.
     - Write a function expression for the same function.
@@ -36,6 +57,7 @@ Every interview will have different questions. These can take many forms includi
 - What does it mean that JavaScript is loosely typed? 
     - Why might JavaScript tell you that 1 + 1 is 11 and not 2?
     - What is the difference between == and ===?
+        - **N: double matches value not type tripple equals value and type
 - What tools and techniques do you use debugging JavaScript code?
 - What is a template literal string?
 - What data structures are you familiar with?  
@@ -52,6 +74,7 @@ Every interview will have different questions. These can take many forms includi
     - Is there more than one way to do this? 
     - What if the property name is in a variable?
 - What is the difference between a function and a method?
+    - **N: method exists inside an object or class where function stands alone
 - How is a `class` different than an `object constructor function`?
     - How might you write an __object constructor function__ for a *Square* object?
     - How might you write a __class__ for a *Square* object?
